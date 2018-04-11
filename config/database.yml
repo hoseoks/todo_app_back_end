@@ -44,4 +44,4 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: todo_app_back_end_production
+  database: todo_app_back_end_production$ sudo service postgresql start
