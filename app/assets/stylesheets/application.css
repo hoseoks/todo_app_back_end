@@ -22,8 +22,9 @@ li{
   padding: 5px;
 }
 li:hover{
-  background-color: #E1F5FE;
+  background-color: white;
   border-radius: 3px;
+  transition: .7s;
 }
 span{
   font-size: 14px;
@@ -33,13 +34,49 @@ span{
   text-decoration: line-through;
 }
 #new-todo-block{
-  width: 60%;
+  width: 80px;
   margin: 20px auto 0px auto;
 }
 #add-new-todo-button{
   display: block;
-  background-color: #03A9F4;
+  text-align: center;
+  width: 80px;
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #a5ebff;
   margin-top: 10px;
 }
-
-
+h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 9px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height:9px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+		
+	body {
+	  padding: 20px;
+	  background-color: #f8f9ed;
+	}
+	
+	.yuh {
+	  text-align: center;
+	  padding: 30px;
+	}
