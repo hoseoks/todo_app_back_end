@@ -113,5 +113,6 @@ a:hover {
 #top, #bottom, #left, #right {
 	background: #a5ebff;
 	position: fixed;
+	height: 4px;
 }
 	}
