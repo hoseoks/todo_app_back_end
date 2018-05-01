@@ -87,10 +87,31 @@ a:hover {
 		
 	body {
 	  padding: 20px;
+	  overflow-x: hidden;
 	  background-color: white;
 	}
 	
 	.yuh {
 	  text-align: center;
 	  padding: 30px;
+	}
+	@media (max-width: 600px) {
+	    body {
+	        overflow-x: hidden;
+	    }
+	    .cont {
+	        width: 100px;
+	        margin: 0 auto;
+	    }
+	    a {
+	        margin-bottom: 20px;
+	        font-size: 16px;
+	    }
+	    input[type=checkbox] {
+          zoom: .8;
+}
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+}
 	}
