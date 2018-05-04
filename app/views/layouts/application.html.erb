@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  
   <title>Workspace</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <div class="logo">
+     <img src="https://vectr.com/ultjhs/a3GS38TMf.svg?width=200&height=200&select=a3GS38TMfpage0" />
+   </div>
+   <div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
 <%= yield %>
 
 </body>

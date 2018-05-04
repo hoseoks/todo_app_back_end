@@ -1,15 +1,17 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 <h3>Todo #<%= params[:id] %></h3>
 <h1>Workshop Todo List </h1>
   <div class="yuh">
 <div class="card">
  <input type="checkbox" name=""/>
-<h2><%= @todo.description %></h2>
-<span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo.pomodoro_estimate %> years old</span>
- <a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
- <a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">Delete</a>
+<h2><%= @todo.description %></h2> <br>
+<span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo.pomodoro_estimate %> years old</span><br><br><br>
+
+ <a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a> &nbsp; | &nbsp; 
+ <a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">Delete</a>&nbsp; | &nbsp; 
  <a href="/" class="simple-link">Go back...</a>
-<img src="<%= @todo.description %>">
+
 </div>
 <div id="left"></div>
 <div id="right"></div>
